@@ -1,0 +1,86 @@
+/**/
+body {
+    color: Black;
+    background: White;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-family: "Times New Roman", serif;
+    text-align: justify
+    }
+p {
+    text-indent: 3%;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+h1 {
+    font-size: 200%
+    }
+h2 {
+    font-size: 175%
+    }
+h3 {
+    font-size: 150%
+    }
+h4 {
+    font-size: 120%
+    }
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.letter {
+    text-indent: 0%;
+    margin-top: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%
+    }
+p.letter2 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.right {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.noindent {
+    text-indent: 0%
+    }
+p.footnote {
+    font-size: small;
+    text-indent: 0%;
+    margin-left: 0%;
+    margin-right: 0%
+    }
+p.finis {
+    font-size: larger;
+    text-align: center;
+    text-indent: 0%;
+    margin-left: 0%;
+    margin-right: 0%
+    }
+a:link {
+    color: blue;
+    text-decoration: none
+    }
+a:visited {
+    color: blue;
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+/**/
