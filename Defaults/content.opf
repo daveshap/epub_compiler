@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="id">
+  <metadata>
+##METADATA##
+    <meta name="cover" content="item1"/>
+  </metadata>
+  <manifest>
+    <item href="cover.jpg" id="item1" media-type="image/jpg"/>
+    <item href="pgepub.css" id="item2" media-type="text/css"/>
+    <item href="0.css" id="item3" media-type="text/css"/>
+    <item href="1.css" id="item4" media-type="text/css"/>
+##MANIFEST##
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="wrap0000.html" id="coverpage-wrapper" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverpage-wrapper" linear="yes"/>
+##SPINE##
+  </spine>
+  <guide>
+    <reference type="toc" title="CONTENTS" href="toc.html"/>
+    <reference type="cover" title="Cover" href="wrap0000.html"/>
+  </guide>
+</package>
