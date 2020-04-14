@@ -3,10 +3,18 @@ table.c3 {
     margin-left: auto;
     margin-right: auto
     }
+table.c2 {
+    margin-right: auto;
+    margin-left: auto
+    }
+big.c1 {
+    font-weight: bold
+    }
 div.c2 {
     width: 60%
     }
 img.c1 {
     width: 100%
     }
+/**/
 /**/
